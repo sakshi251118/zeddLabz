@@ -8,6 +8,7 @@
 9.	
 10.	io.on('connection', (socket) => {
 11.	  console.log('A client connected.');
+  
 12.	
 13.	  socket.on('message', (data) => {
 14.	    console.log('Received message:', data);
