@@ -9,8 +9,6 @@ class ClassComponent extends React.Component {
 export default ClassComponent;
 //Example of a function component with TypeScript:
 
-import React from 'react';
-
 interface FunctionComponentProps {
   name: string;
 }
